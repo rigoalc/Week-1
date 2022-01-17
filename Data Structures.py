@@ -4,7 +4,7 @@
 # board. This function will update a 2D list such that it prints out like the below output. 
 # The two characters used are the capital letters X and O, not zero. 
 # A template has been included for you to start with:
-    
+   
 def create_board(board):
     # Update the 2D list here
     # Repeat for all other indexes
@@ -23,6 +23,9 @@ def create_board(board):
 
     # Return the updated board
     return board
+
+
+
 
 #Write a program that will put two things in a dictionary, and return it. You should have a function named make_dict that has two parameters (use something like name, and age). It should create a dictionary with those two items, and then return the dictionary. The keys should be 'name' and 'age'.
 
