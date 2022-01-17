@@ -1,4 +1,13 @@
-#2D+ Lists
+
+# KVCC 
+# CIS-226-23199
+# Advanced Python Programming
+# 
+# 
+# WEEK 1
+
+
+# #2D+ Lists
 
 #Write a program that uses 2D lists. You should have a function named create_board with one parameter: 
 # board. This function will update a 2D list such that it prints out like the below output. 
