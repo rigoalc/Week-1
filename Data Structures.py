@@ -18,10 +18,16 @@ def create_board(board):
     # Update the 2D list here
     # Repeat for all other indexes
     board[0][0] = 'X'
+    board[0][1] = 'O'
+    board[0][2] = 'O'
+    
+    board[1][0] = 'O'
     board[1][1] = 'X'
     board[1][2] = 'X'
+    
+    board[2][0] = 'X'
     board[2][1] = 'X'
-    board[2][2] = 'X'
+    board[2][2] = 'O'
     # Print it out
     for row in board:
         print('{} {} {}'.format(
@@ -48,8 +54,8 @@ def create_board(board):
 def make_dict(name, age):
     
     dict = {
-    'name': 'bob',
-    'age': '36',
+    'name': name,
+    'age': age,
 }
 
     return dict
